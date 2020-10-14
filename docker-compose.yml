@@ -1,0 +1,8 @@
+
+nginx:
+    image: nginx:latest
+    container_name: html5_css_javascript_programing
+    ports: 
+        - "80:80"
+    volumes:
+        - ./html:/usr/share/nginx/html
