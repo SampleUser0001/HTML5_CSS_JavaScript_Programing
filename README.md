@@ -12,6 +12,24 @@
 ```
 [W3C:HTMLで文字エンコーディングを指定する](https://www.w3.org/International/questions/qa-html-encoding-declarations.ja)
 
+## Sample4.html
+
+### imgタグの画像サイズを変更する
+
+- width
+- height
+
+## Sample5.html
+
+### 開発者ツールでDOMの操作を行う。
+
+1. Sample5.htmlをブラウザで開く
+2. F12キーを押す
+3. コンソールタブをクリック
+4. 下記を入力
+5. ```document.getElementById("title").textContent="hello"```
+6. 表示される文字列が変更されることを確認する。
+
 ## 参考
 
 [ゲームを作りながら楽しく学べるHTML5+CSS+JavaScriptプログラミング［改訂版］](https://nextpublishing.jp/book/8499.html)
