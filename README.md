@@ -1,27 +1,39 @@
 # HTML5_CSS_JavaScript_Programing
 
-## Sample1.htmlについて
+- [HTML5_CSS_JavaScript_Programing](#html5_css_javascript_programing)
+  - [第１章 HTML入門](#第１章-html入門)
+    - [Sample1.html](#sample1html)
+      - [文字化けが発生する](#文字化けが発生する)
+    - [Sample4.html](#sample4html)
+      - [imgタグの画像サイズを変更する](#imgタグの画像サイズを変更する)
+    - [Sample5.html](#sample5html)
+      - [開発者ツールでDOMの操作を行う。](#開発者ツールでdomの操作を行う)
+  - [参考](#参考)
 
-### 文字化けが発生する
+## 第１章 HTML入門
+
+### Sample1.html
+
+#### 文字化けが発生する
 
 文字コードの指定が必要。
-```
+```html
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 </head>
 ```
 [W3C:HTMLで文字エンコーディングを指定する](https://www.w3.org/International/questions/qa-html-encoding-declarations.ja)
 
-## Sample4.html
+### Sample4.html
 
-### imgタグの画像サイズを変更する
+#### imgタグの画像サイズを変更する
 
 - width
 - height
 
-## Sample5.html
+### Sample5.html
 
-### 開発者ツールでDOMの操作を行う。
+#### 開発者ツールでDOMの操作を行う。
 
 1. Sample5.htmlをブラウザで開く
 2. F12キーを押す
