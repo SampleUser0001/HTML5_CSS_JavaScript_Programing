@@ -1,0 +1,15 @@
+* { /* 文書全体のフォントサイズを12pxにする */
+    font-size: 12px;
+}
+h1 { /* h1のフォントサイズを22pxにする */
+    font-size: 22px;
+}
+#comment { /* idがcommentの要素を緑色にする */
+    color: green;
+}
+.even { /* class="even"のクラス属性が指定されているときに紫にする */
+    color: purple;
+}
+.odd { /* class="odd"のクラス属性が指定されているときに赤にする */
+    color: red;
+}
