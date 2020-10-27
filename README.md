@@ -8,6 +8,7 @@
       - [imgタグの画像サイズを変更する](#imgタグの画像サイズを変更する)
     - [Sample5.html](#sample5html)
       - [開発者ツールでDOMの操作を行う。](#開発者ツールでdomの操作を行う)
+  - [第2章 CSS入門](#第2章-css入門)
   - [参考](#参考)
 
 ## 第１章 HTML入門
@@ -41,6 +42,10 @@
 4. 下記を入力
 5. ```document.getElementById("title").textContent="hello"```
 6. 表示される文字列が変更されることを確認する。
+
+## 第2章 CSS入門
+
+
 
 ## 参考
 
