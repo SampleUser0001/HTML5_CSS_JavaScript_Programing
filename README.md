@@ -78,6 +78,18 @@ HTMLタグにはインライン要素とブロックレベル要素がある。
 ・div要素 = 小要素としていろいろな要素を含む場合
 ```
 
+### Sample13.html
+
+2-5-2 ボックスモデル  
+
+ボックスモデルでスタイルを指定できるのはブロックレベル要素のみ。
+
+- height : 要素自体の高さ
+- width : 要素自体の幅
+- padding : 要素自体からborderまでの長さ
+- border : 境界線のスタイル
+- margin : 要素のborderからほかの要素までの長さ
+
 ## 参考
 
 [ゲームを作りながら楽しく学べるHTML5+CSS+JavaScriptプログラミング［改訂版］](https://nextpublishing.jp/book/8499.html)
