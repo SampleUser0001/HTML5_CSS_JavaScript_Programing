@@ -90,6 +90,15 @@ HTMLタグにはインライン要素とブロックレベル要素がある。
 - border : 境界線のスタイル
 - margin : 要素のborderからほかの要素までの長さ
 
+### Sample14.html
+
+2-5-3 ボックスの位置指定
+
+topとleftスタイルを使ってボックスの位置を調整できる。  
+topとleftは親要素からの距離を指定する。  
+topは縦。leftは横。  
+top, leftを使用する場合は、```position: absolute;```を指定する必要がある。
+
 ## 参考
 
 [ゲームを作りながら楽しく学べるHTML5+CSS+JavaScriptプログラミング［改訂版］](https://nextpublishing.jp/book/8499.html)
