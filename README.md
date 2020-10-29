@@ -99,7 +99,24 @@ topとleftは親要素からの距離を指定する。
 topは縦。leftは横。  
 top, leftを使用する場合は、```position: absolute;```を指定する必要がある。
 
+## 第3章 JavaScript入門
+
+### 変数の宣言
+
+varを使用するのが一般的だったが、意図しない動作を作りやすい問題が知られており、ECMAScript[2015]で```const```と```let```が導入された。
+
+- const
+  - 再代入できない変数を宣言する。
+  - 代入しようとした場合、TypeErrorが発生する。
+- let
+  - 再代入可能な変数を宣言する。
+- var
+  - 再代入可能な変数を宣言する。
+  - 変数の再宣言ができてしまう。
+
 ## 参考
 
 [ゲームを作りながら楽しく学べるHTML5+CSS+JavaScriptプログラミング［改訂版］](https://nextpublishing.jp/book/8499.html)
 
+[JavaScript Primer](https://jsprimer.net/)  
+JavaScriptの参考

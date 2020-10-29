@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script type="text/javascript">
+        function init() {
+            const a=3;
+            const b=3;
+            const c=5;
+            
+            const x = (a==b);
+            const y = (a!=b);
+            const z = (a<b);
+            const p = (a>b);
+            const q = (a<=b);
+            const r = (a>=b);
+
+            const str = "x="+x+ ",y="+y+ ",z="+z;
+            document.getElementById("info").textContent = str;
+        }
+    </script>
+</head>
+<body onload="init()">
+    <p id="info"></p>
+</body>
+</html>
