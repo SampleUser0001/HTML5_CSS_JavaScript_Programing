@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script>
+        function checkEvent (){
+            const v = document.getElementById("member").value;
+            const r = document.getElementById("result");
+            
+            if(isNaN(v)){
+                r.textContent = v + "は数字ではありません。";
+            } else {
+                r.textContent = v + "は数字です。";
+            }
+        }
+    </script>
+</head>
+<body>
+    <input id="member" />
+    <button onclick="checkEvent()">入力判定</button>
+    <p id="result"></p>
+</body>
+</html>
