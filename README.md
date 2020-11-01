@@ -10,6 +10,11 @@
       - [開発者ツールでDOMの操作を行う。](#開発者ツールでdomの操作を行う)
   - [第2章 CSS入門](#第2章-css入門)
     - [Sample12.html](#sample12html)
+    - [Sample13.html](#sample13html)
+    - [Sample14.html](#sample14html)
+  - [第3章 JavaScript入門](#第3章-javascript入門)
+    - [変数の宣言](#変数の宣言)
+    - [Sample19](#sample19)
   - [参考](#参考)
 
 ## 第１章 HTML入門
@@ -113,6 +118,12 @@ varを使用するのが一般的だったが、意図しない動作を作り�
 - var
   - 再代入可能な変数を宣言する。
   - 変数の再宣言ができてしまう。
+
+### Sample19
+
+デバッグを行う。  
+F12キーを押下する。
+
 
 ## 参考
 
