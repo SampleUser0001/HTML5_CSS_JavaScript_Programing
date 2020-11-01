@@ -15,6 +15,8 @@
   - [第3章 JavaScript入門](#第3章-javascript入門)
     - [変数の宣言](#変数の宣言)
     - [Sample19](#sample19)
+    - [Sample20](#sample20)
+      - [JavaScriptメソッド](#javascriptメソッド)
   - [参考](#参考)
 
 ## 第１章 HTML入門
@@ -123,6 +125,25 @@ varを使用するのが一般的だったが、意図しない動作を作り�
 
 デバッグを行う。  
 F12キーを押下する。
+
+### Sample20
+
+3-10 DOMの操作  
+
+JavaScriptで番号付きリストに追加/削除する。
+
+#### JavaScriptメソッド
+
+Next  
+3-10-2 文書ツリーをたどるためのプロパティ
+
+- .appendChild(li)
+  - 番号付きリストに追加する。
+- .removeChild(li)
+  - 番号付きリストから指定したitemを削除する。
+- .appendChild(li)
+  - 番号付きリストの末尾に指定したitemを追加する。
+
 
 
 ## 参考

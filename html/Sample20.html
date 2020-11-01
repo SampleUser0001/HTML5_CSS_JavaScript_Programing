@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script>
+        function insertItem(){
+            const container = document.getElementById("container");
+            const item = document.createElement("li");
+            item.textContent = dateParse(new Date());
+            container.appendChild(item);
+        }
+
+        function removeItem(){
+            const container = document.getElementById("container");
+            const item = container.lastChild;
+            if(item){
+                container.removeChild(item);
+            }
+        }
+
+        function dateParse(date){
+            // JavaScriptの日付の扱いひどくね？
+            const parsed = date.getFullYear()
+                + '/' + ('0' + (date.getMonth() + 1)).slice(-2)
+                + '/' + ('0' + date.getDate()).slice(-2)
+                + ' ' + ('0' + date.getHours()).slice(-2)
+                + ':' + ('0' + date.getMinutes()).slice(-2)
+                + ':' + ('0' + date.getSeconds()).slice(-2)
+            return parsed;
+        }
+    </script>
+</head>
+<body>
+    <button onclick="insertItem()">insert</button>
+    <button onclick="removeItem()">remove</button>
+    <ol id="container"></ol>
+</body>
+</html>
