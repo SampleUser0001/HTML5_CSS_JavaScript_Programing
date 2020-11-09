@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <style>
+        .cell{
+            width:100px;
+            height:100px;
+
+            font-size: 60px;
+
+            text-align: center;
+        }
+    </style>
+    <script>
+        let count = 0;
+        function clickMe(e){
+            if(e.textContent === '') {
+                if(count++ % 2 == 0 ){
+                    // 先手
+                    e.textContent = "○";
+                } else {
+                    // 後手
+                    e.textContent = "×";
+                }
+            } else {
+                alert("ズルはだめだ。")
+            }
+        }
+    </script>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td class="cell" onclick="clickMe(this)"></td>
+            <td class="cell" onclick="clickMe(this)"></td>
+            <td class="cell" onclick="clickMe(this)"></td>
+        </tr>
+        <tr>
+            <td class="cell" onclick="clickMe(this)"></td>
+            <td class="cell" onclick="clickMe(this)"></td>
+            <td class="cell" onclick="clickMe(this)"></td>
+        </tr>
+        <tr>
+            <td class="cell" onclick="clickMe(this)"></td>
+            <td class="cell" onclick="clickMe(this)"></td>
+            <td class="cell" onclick="clickMe(this)"></td>
+        </tr>
+    </table>
+</body>
+</html>
