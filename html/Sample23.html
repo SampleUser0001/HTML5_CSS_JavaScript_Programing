@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <style>
+        div {
+            position: absolute;
+            width: 60px;
+            height: 25px;
+            top: 50px;
+        }
+    </style>
+    <script>
+        const colors = ["red", "blue", "yellow", "green"];
+        let ufo;
+
+        function init(){
+            window.addEventListener("keydown",keydown);
+            ufo = new UFO(document.getElementById("ufo"),100)
+        }
+
+        function keydown(e){
+            if(e.keyCode == 37){
+                ufo.moveLeft();
+            } else if(e.keyCode == 39){
+                ufo.moveRight();
+            }
+        }
+
+        function UFO(_elem,_xops){
+            this.elem = _elem;
+            this.xops = _xops;
+            this.colorIndex = 0;
+
+            this.moveLeft = function(){
+                this.xops -= 10;
+                this.elem.style.left = this.xops + "px";
+                this.chengeColor();
+            }
+
+            this.moveRight = function(){
+                this.xops += 10;
+                this.elem.style.left = this.xops + "px";
+                this.chengeColor();
+            }
+
+            this.chengeColor = function(){
+                this.elem.style.color = colors[this.colorIndex];
+                if(++this.colorIndex >= colors.length){
+                    this.colorIndex = 0;
+                }
+
+            }
+
+            this.elem.style.left = this.xops + "px";
+            this.chengeColor();
+        }
+    </script>
+</head>
+<body onload="init()">
+    <div id="ufo"><(ooo)></div>
+</body>
+</html>
