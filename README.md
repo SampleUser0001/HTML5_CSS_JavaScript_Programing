@@ -21,7 +21,11 @@
     - [Sample21](#sample21)
     - [Sample26 組み込みオブジェクト：タイマー](#sample26-組み込みオブジェクトタイマー)
     - [Sample27 組み込みオブジェクト：Math](#sample27-組み込みオブジェクトmath)
+  - [参考](#参考)
+<<<<<<< HEAD
     - [](#)
+=======
+>>>>>>> 40478981d1f4d05ddee99a2df9a30d1e626f9c07
   - [参考](#参考)
 
 ## 第１章 HTML入門
@@ -188,8 +192,6 @@ JavaScriptで番号付きリストに追加/削除する。
 - Math.PI
   - 円周率を返す。
   
-### 
-
 ## 参考
 
 - [ゲームを作りながら楽しく学べるHTML5+CSS+JavaScriptプログラミング［改訂版］](https://nextpublishing.jp/book/8499.html)
