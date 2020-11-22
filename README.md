@@ -19,6 +19,7 @@
       - [JavaScriptメソッド](#javascriptメソッド)
       - [デベロッパーツール](#デベロッパーツール)
     - [Sample21](#sample21)
+    - [Sample25 組み込みオブジェクト：タイマー](#sample25-組み込みオブジェクトタイマー)
   - [参考](#参考)
 
 ## 第１章 HTML入門
@@ -152,6 +153,19 @@ JavaScriptで番号付きリストに追加/削除する。
 3-10-3 スタイルの指定
 
 ```DOM要素.style.プロパティ名```でアクセスする。
+
+### Sample25 組み込みオブジェクト：タイマー
+
+- int setTimeout(function, int)
+  - 第2引数ミリ秒後に第1引数の処理を実行する。
+  - タイマーIDを返す。
+- clearTimeout(int)
+  - タイマーIDを引数に、setTimeoutの動きを止める。
+- int setInterval(function, int)
+  - 第2引数ミリ秒ごとに第1引数の処理を実行する。
+  - タイマーIDを返す
+- clearInterval(int)
+  - タイマーIDを引数に、setIntervalの動きを止める。
 
 ## 参考
 
