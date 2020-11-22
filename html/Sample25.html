@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script>
+        Array.prototype.shuffle = function () {
+            let i = this.length;
+            while(i){
+                let j = Math.floor(Math.random() * i);
+                let tmp = this[--i];
+                this[i] = this[j];
+                this[j] = tmp;
+            }
+            return this;
+        }
+
+        function shuffle(){
+            let cards = [1,1,2,2,3,3,4,4,5,5,6,6];
+            cards.shuffle();
+            document.getElementById("result").textContent = cards.join(",");
+        }
+    </script>
+</head>
+<body>
+    <button onclick="shuffle()">shuffle</button>
+    <p id="result"></p>
+</body>
+</html>
