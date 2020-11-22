@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script>
+        function init(){
+            const length = 10;
+            const min = 0;
+            const max = 9;
+            let data = [];
+            for(let i=0 ; i<length ; i++){
+                data.push(Math.max(min, Math. min(max, Math.floor(Math.random()*10))));
+            }
+
+            document.getElementById("data").textContent = data;
+            document.getElementById("length").textContent = data.length;
+            document.getElementById("indexOf").textContent = data.indexOf(2);
+            document.getElementById("lastIndexOf").textContent = data.lastIndexOf(7);
+            document.getElementById("splice").textContent = data.splice(2,4);
+
+            let sorted = data.sort();
+            document.getElementById("sort").textContent = sorted;
+
+            let pushed = push
+            document.getElementById("push").textContent = data.push(9);
+            document.getElementById("pushed").textContent = data;
+            document.getElementById("pop").textContent = data.pop();
+            document.getElementById("poped").textContent = data;
+        }
+    </script>
+</head>
+<body onload="init()">
+    data:<span id="data"></span><br>
+    data.length:<span id="length"></span><br>
+    data.indexOf(2):<span id="indexOf"></span><br>
+    data.lastIndexOf(7):<span id="lastIndexOf"></span><br>
+    data.splice(2, 4):<span id="splice"></span><br>
+    data.sort():<span id="sort"></span><br>
+    data.push(9):<span id="push"></span><br>
+    data.pushed:<span id="pushed"></span><br>
+    data.pop():<span id="pop"></span><br>
+    data.poped:<span id="poped"></span><br>
+</body>
+</html>
