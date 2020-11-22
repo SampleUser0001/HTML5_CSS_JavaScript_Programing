@@ -19,7 +19,8 @@
       - [JavaScriptメソッド](#javascriptメソッド)
       - [デベロッパーツール](#デベロッパーツール)
     - [Sample21](#sample21)
-    - [Sample25 組み込みオブジェクト：タイマー](#sample25-組み込みオブジェクトタイマー)
+    - [Sample26 組み込みオブジェクト：タイマー](#sample26-組み込みオブジェクトタイマー)
+    - [Sample27 組み込みオブジェクト：Math](#sample27-組み込みオブジェクトmath)
   - [参考](#参考)
 
 ## 第１章 HTML入門
@@ -154,7 +155,7 @@ JavaScriptで番号付きリストに追加/削除する。
 
 ```DOM要素.style.プロパティ名```でアクセスする。
 
-### Sample25 組み込みオブジェクト：タイマー
+### Sample26 組み込みオブジェクト：タイマー
 
 - int setTimeout(function, int)
   - 第2引数ミリ秒後に第1引数の処理を実行する。
@@ -167,9 +168,27 @@ JavaScriptで番号付きリストに追加/削除する。
 - clearInterval(int)
   - タイマーIDを引数に、setIntervalの動きを止める。
 
+### Sample27 組み込みオブジェクト：Math
+
+- Math.min(a, b)
+  - 小さいほうを返す。
+- Math.max(a, b)
+  - 大きいほうを返す。
+- Math.random()
+  - 0以上1未満の値を返す。
+- Math.floor(n)
+  - 小数点以下を切り捨てる。
+- Math.cell(n)
+  - 小数点以下を切り上げる。
+- Math.round(n)
+  - 四捨五入する。
+- Math.sqrt(n)
+  - 平方根を返す。
+- Math.PI
+  - 円周率を返す。
+  
 ## 参考
 
-[ゲームを作りながら楽しく学べるHTML5+CSS+JavaScriptプログラミング［改訂版］](https://nextpublishing.jp/book/8499.html)
-
-[JavaScript Primer](https://jsprimer.net/)  
-JavaScriptの参考
+- [ゲームを作りながら楽しく学べるHTML5+CSS+JavaScriptプログラミング［改訂版］](https://nextpublishing.jp/book/8499.html)
+- [JavaScript Primer](https://jsprimer.net/)  
+  - JavaScriptの参考

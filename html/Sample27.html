@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script>
+        function minmax(){
+            const num = document.getElementById("randomRange").value;
+            const lessThan3 = Math.min(3,num);
+            const moreOr3 = Math.max(3,num);
+            const infoValue = "num = " + num + " , Math.min(3,num) = " + lessThan3 + " , Math.max(3,num) = " + moreOr3;
+            document.getElementById("info").textContent = infoValue;
+        }
+
+        function random(){
+            const num = document.getElementById("randomRange").value;
+            const multiplier = Math.random();
+            const product = Math.floor(multiplier*num);
+            const infoValue = "num = " + num + " , multiplier = " + multiplier + " , product = " + product;
+            document.getElementById("info").textContent = infoValue;
+            // Math.sqrt(num);
+        }
+    </script>
+</head>
+<body>
+    <input type="range" min="0" max="10" id="randomRange" />
+    <button onclick="minmax()">min/max</button>
+    <button onclick="random()">random</button>
+    <p id="info"></p>
+</body>
+</html>
