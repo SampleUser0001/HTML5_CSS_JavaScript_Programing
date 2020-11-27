@@ -27,7 +27,7 @@
 
 ## Github Pages
 
-[index.html](./html/index.html)
+[index.html](https://SampleUser0001.github.io/HTML5_CSS_JavaScript_Programing/html/index.html)
 
 ## 第１章 HTML入門
 
