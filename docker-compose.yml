@@ -7,14 +7,3 @@ services:
       - "8080:80"
     volumes:
       - ./html:/usr/share/nginx/html
-  https-portal:
-    image: steveltn/https-portal:1.15.0
-    ports:
-      - '80:80'
-      - '443:443'
-    links:
-      - nginx
-    restart: always
-    environment:
-      DOMAINS: 'localhost => http://nginx:3000'
-      STAGE: local
